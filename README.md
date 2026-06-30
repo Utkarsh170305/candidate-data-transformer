@@ -8,7 +8,7 @@ This is a command-line application that transforms recruiter CSV data and resume
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.11 or later
 - Standard library modules only (no external library dependencies)
 
 ---
@@ -16,14 +16,15 @@ This is a command-line application that transforms recruiter CSV data and resume
 ## Installation
 
 ```bash
-git clone <repository-url>
-cd candidate-data-transformer
+git clone https://github.com/Lakshya-developer24/Candidate-Data-Transformer.git
+cd Candidate-Data-Transformer
 ```
 
 ---
 
 ## Project Structure
 
+```text
 candidate-data-transformer/
 ├── candidate_transformer/
 ├── configs/
@@ -33,6 +34,7 @@ candidate-data-transformer/
 │   └── resumes/
 ├── output/
 └── tests/
+```
 
 ---
 
@@ -117,11 +119,26 @@ Sample config.json:
 
 ## Running the Project
 
+### Using the default configuration
+
+If the `--config` argument is omitted, the application uses the built-in default configuration and projects all supported fields.
+
 ```bash
 python3 -m candidate_transformer.cli \
     --csv input/recruiter/recruiter.csv \
     --resumes input/resumes \
-    --config configs/default.json \
+    --out output
+```
+
+### Using a custom configuration
+
+To customize field mapping, metadata inclusion, or missing value handling, provide a configuration file.
+
+```bash
+python3 -m candidate_transformer.cli \
+    --csv input/recruiter/recruiter.csv \
+    --resumes input/resumes \
+    --config configs/custom_config.json \
     --out output
 ```
 
@@ -136,34 +153,76 @@ Processed 2 candidates: 1 succeeded, 1 failed. See output/profiles.json and outp
 
 ---
 
-## Sample Output
+## Sample Output (Default Configuration)
 
-Sample `profiles.json` (projected candidate output):
+Sample `profiles.json` (default configuration):
+
 ```json
 [
   {
-    "candidate_id": "cand_b722d3e18a99",
-    "name": "Jane Doe",
-    "email": "jane.doe@example.com",
+    "candidate_id": "cand_86e0b9e56c17",
+    "full_name": {
+      "value": "Jane Doe",
+      "confidence": 1.0,
+      "source": [
+        "recruiter_csv",
+        "resume_txt"
+      ],
+      "method": "agreed"
+    },
+    "emails": [
+      {
+        "value": "jane.doe@example.com",
+        "confidence": 1.0,
+        "source": [
+          "recruiter_csv",
+          "resume_txt"
+        ],
+        "method": "agreed"
+      }
+    ],
+    "phones": [
+      {
+        "value": "+14155550199",
+        "confidence": 0.95,
+        "source": "recruiter_csv",
+        "method": "csv_direct"
+      }
+    ],
+    "headline": {
+      "value": "Senior Backend Engineer",
+      "confidence": 0.6,
+      "source": "resume_txt",
+      "method": "resume_inferred"
+    },
     "skills": [
-      "Python",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "JavaScript"
-    ]
+      {
+        "value": "Python",
+        "confidence": 0.8,
+        "source": "resume_txt",
+        "method": "resume_keyword"
+      },
+      {
+        "value": "AWS",
+        "confidence": 0.8,
+        "source": "resume_txt",
+        "method": "resume_keyword"
+      }
+    ],
+    "overall_confidence": 0.83
   }
 ]
 ```
 
-Sample `failed_candidates.json` (isolated failures output):
+Sample `failed_candidates.json`:
+
 ```json
 [
   {
     "identifier": "bad@example.com",
     "source": "recruiter_csv",
     "stage": "extraction",
-    "reason": "CSV candidate name is missing"
+    "reason": "CSV row is missing required field 'name'"
   }
 ]
 ```
