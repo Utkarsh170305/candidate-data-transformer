@@ -1,0 +1,199 @@
+﻿Diagnose log at 2026-07-01T12:00:40Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=LAPTOP-MF5JG26O
+GIT_TRACE2_PARENT_SID=9af3a7c9-adaf-4be8-a65c-16c562b0f8db
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\utkarsh sharma\OneDrive
+HOMEPATH=\Users\utkarsh sharma
+RegionCode=APJ
+TMP=C:\Users\UTKARS~1\AppData\Local\Temp
+HOME=C:\Users\utkarsh sharma
+PROCESSOR_REVISION=9a04
+EFC_8700=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+GIT_ASKPASS=c:\Users\utkarsh sharma\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass.sh
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\UTKARS~1\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\utkarsh sharma\AppData\Local
+PUBLIC=C:\Users\Public
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 4, GenuineIntel
+TERM_PROGRAM=vscode
+COLORTERM=truecolor
+USERDOMAIN=LAPTOP-MF5JG26O
+ProgramFiles(x86)=C:\Program Files (x86)
+platformcode=KV
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\utkarsh sharma\bin;c:\Users\utkarsh sharma\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\utkarsh sharma\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\utkarsh sharma\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Users\utkarsh sharma\anaconda3\Library\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\MinGW\bin;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Python313;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\utkarsh sharma\AppData\Local\Microsoft\WindowsApps;C:\Users\utkarsh sharma\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\utkarsh sharma\AppData\Roaming\npm;C:\Users\utkarsh sharma\AppData\Roaming\Python\Python313\Scripts;
+jdk=C:\Users\utkarsh sharma\OneDrive\Desktop\jdk-8u221-windows-x64.exe
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=12
+TMPDIR=C:\Users\UTKARS~1\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_GIT_ASKPASS_NODE=C:\Users\utkarsh sharma\AppData\Local\Programs\Microsoft VS Code\Code.exe
+TERM_PROGRAM_VERSION=1.118.1
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\utkarsh sharma\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass-main.js
+PSModulePath=C:\Users\utkarsh sharma\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-b511f4fa7f-sock
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+VSCODE_NONCE=024597f7-24fa-4631-8abc-69d0a7056259
+VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_24192_NTWITNOFSUSGSPSR
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+OnlineServices=Online Services
+SystemRoot=C:\windows
+SESSIONNAME=Console
+VSCODE_STABLE=1
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\LAPTOP-MF5JG26O
+USERPROFILE=C:\Users\utkarsh sharma
+MSYSTEM=MINGW64
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-MF5JG26O
+APPDATA=C:\Users\utkarsh sharma\AppData\Roaming
+HOMEDRIVE=C:
+VSCODE_A11Y_MODE=0
+USERNAME=utkarsh sharma
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\windows
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\utkarsh sharma\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\utkarsh sharma\AppData\Local\Temp\bb4a449c9fdf9ef12a1a6920'... OK
+Reading from temporary file 'C:\Users\utkarsh sharma\AppData\Local\Temp\bb4a449c9fdf9ef12a1a6920'... OK
+Deleting temporary file 'C:\Users\utkarsh sharma\AppData\Local\Temp\bb4a449c9fdf9ef12a1a6920'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\utkarsh sharma
+UserDataDirectoryPath: C:\Users\utkarsh sharma\.gcm
+GetCurrentDirectory(): C:\Users\utkarsh sharma\OneDrive\Desktop\Candidate-Data-Transformer
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:57999/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.48.1.windows.1'
+Locating current repository...Git repository at 'C:/Users/utkarsh sharma/OneDrive/Desktop/Candidate-Data-Transformer/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=true
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/utkarsh sharma/.gitconfig	user.name=Utkarsh Sharma
+file:C:/Users/utkarsh sharma/.gitconfig	user.emai=utkarshsharma7838258163@gmail.com
+file:C:/Users/utkarsh sharma/.gitconfig	user.email=utkarshsharma17.2005@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	submodule.active=.
+file:.git/config	remote.origin.url=https://github.com/Utkarsh170305/candidate-data-transformer.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\utkarsh sharma\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\utkarsh sharma\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
